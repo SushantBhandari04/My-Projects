@@ -1,0 +1,160 @@
+body{
+    background-color: rgba(14, 17, 22, 0.94);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.editButton{
+    color: rgb(105, 216, 183);
+}
+.container{
+    text-align: center;
+    background-color:  rgb(30 41 59);
+    padding: 20px;
+    margin: 50px;
+    margin-right: 400px;
+    margin-left: 400px;
+    border-radius: 20px;
+}
+header{
+    color: rgb(254, 255, 255);
+}
+.checkbox{
+
+    display: inline-block;
+    height: 11px;
+    margin-top: 27px;
+}
+h3{
+    display: inline-block;
+}
+button{
+    display: inline-block;
+}
+.todoDiv{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+#writeTodo{
+    padding : 12px;
+    padding-left: 30px;
+    border : solid black 0px;
+    border-radius: 30px;
+    margin: 30px;
+    margin-left: 40px;
+    width : 300px;
+    background-color: rgb(156, 213, 218);
+    font-size: 16px;
+    font-weight: 600;
+    height : 26px
+}
+#addTodo{
+    height: 47px;
+    width: 110px;
+    margin-right: 40px;
+    border-radius: 30px;
+    font-size: 15px;
+    background-color: rgb(140, 229, 254);
+    font-weight: 700;
+    color: rgb(29, 31, 30);
+}
+#addTodo:hover{
+    cursor: pointer;
+}
+
+.todoDiv h3{
+    color: rgb(185, 208, 226);
+    margin-left: 10px;
+    
+}
+.editButton{
+    
+    align-items: right;
+    width: 50px;
+    margin-top: 8px;
+    margin-left: 0px;
+    margin-right: 5px;
+    border: 0px;
+    background-color:  rgba(80, 83, 140, 0);
+    color : rgb(47, 221, 234);
+    font-size: 17px;
+    font-weight: 600;
+}
+.deleteButton{
+    
+    align-items: right;
+    width: 50px;
+    margin-top: 8px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: 0px;
+    background-color:  rgba(80, 83, 140, 0);
+    color : rgb(239, 138, 138);
+    font-size: 17px;
+    /* font-weight: 600; */
+}
+.saveButton{
+    
+    align-items: right;
+    width: 50px;
+    margin-top: 8px;
+    margin-left: 0px;
+    margin-right: 5px;
+    border: 0px;
+    background-color:  rgba(80, 83, 140, 0);
+    color : rgb(185, 255, 149);
+    font-size: 17px;
+    font-weight: 600;
+}
+.todoDiv button:hover{
+    cursor: pointer;
+}
+.todoDiv{
+    border: solid rgb(14, 14, 14) 1px;
+    padding : 5px;
+   
+    
+    border-radius: 10px;
+    height: 60px;
+    background-color: rgba(80, 83, 140, 0.389);
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkbox{
+    margin-left: 20px;
+    transform: scale(2);
+    margin-right : 10px;
+    background-color: rgb(47, 228, 71);
+    color: rgb(45, 206, 45);
+    accent-color: rgb(20, 225, 20);
+
+}
+.checkbox:hover{
+    cursor: pointer;
+}
+.newInput{
+    margin-top: 12px;
+    margin-left: 2px;
+    margin-bottom: 17px;
+    height:33px;
+    width:380px;
+    border:0px;
+    background-color: rgb(192, 204, 213);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-top: 4px;
+    font-size: 17px;
+}
+
+.rightDiv{
+    margin-top: 0px;
+    padding-top: 15px;
+}
+.leftDiv{
+    display: flex;
+}
+
+

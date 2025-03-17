@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bg-color-changer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="main">
+    <h1>
+        Background color changer
+    </h1>
+    <div class="container" id="color-pallete">
+        <button class="color" id="red" onclick="bgChanger(id)">Red</button>
+        <button class="color" id="white" onclick="bgChanger(id)">White</button>
+        <button class="color" id="black" onclick="bgChanger(id)">Black</button>
+        <button class="color" id="green" onclick="bgChanger(id)">Green</button>
+        <button class="color" id="blue" onclick="bgChanger(id)"> Blue</button>
+        
+        <section >
+            <label for="custom">  Custom color: </label>
+            <input class="color" type="color" id="custom" placeholder="Custom" onchange="custom()">
+        </section>
+    </div>
+</div>
+</body>
+</html>

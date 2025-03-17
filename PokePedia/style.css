@@ -1,0 +1,399 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    background: linear-gradient(to bottom, #0e0e11, #000000);
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter", system-ui;
+    width: 100%;
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: "Inter", system-ui; */
+    font-family: "Dancing Script", serif;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(255, 255, 255) 50%, rgb(126, 135, 123) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 30px;
+    gap: -5%;
+    font-weight: bolder;
+    letter-spacing: -0.5px;
+
+}
+
+#logoImage{
+    display: inline;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.txt-gradient {
+    color: yellow;
+    background: radial-gradient(56.39% 208.65% at 50% 50%, rgb(224, 255, 22) 0%, rgb(253, 236, 0) 100%);
+    background: linear-gradient(rgb(235, 255, 20) 50%, rgb(94, 99, 41) 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 2px;   
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", system-ui;
+    font-weight: 700;
+    border-radius: 5px;
+    background: radial-gradient(circle, rgb(226, 255, 41) 0%, rgb(156, 173, 51) 100%);
+    width: 80px;
+    height: 32px;
+    font-size: 15px;
+    color: rgb(29, 23, 23); /* Ensures text is visible over the gradient */
+    border: none; /* Remove default border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    padding-bottom: 2px;
+}
+
+.buttons:hover {
+    background: radial-gradient(circle, rgb(255, 244, 83) 0%, rgb(203, 229, 32) 100%);
+}
+
+#navBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(14, 14, 17, 0.8); /* Translucent background color */
+    color: white;
+    background-image: linear-gradient(90deg, transparent 0%, transparent 100%); /* Transparent gradient */
+    padding-top: 3px;
+    padding-bottom: 2px;
+    position: fixed; /* Make navbar stick to the top */
+    top: 0; /* Position it at the top */
+    z-index: 1000; /* Ensure it stays above other elements */
+}
+
+
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+#landingPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+#landingImageDiv{
+    margin: 0px;
+    margin-top: 60px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    padding-top: 30px;
+}
+
+#landingImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+#landingTextDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+#landingTextDiv h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgba(207, 221, 232, 0.859);
+    width: 70%;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 350;
+    /* font-family: "Inter", system-ui; */
+    font-family:"Montserrat", serif;
+
+    font-size: 16px;
+}
+
+#landingText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: "Inter", system-ui;
+    background-image: linear-gradient(to right, rgb(255, 255, 255) 40%, rgb(91, 99, 89) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    color: transparent;
+    font-size: 42px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* background-color: #0e0e11; */
+    color: white;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* margin-bottom: 20px; */
+}
+
+
+#cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 15px;
+    width: 80%;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 300px; /* Minimum height to prevent overflow */
+    width: 250px;  /* Minimum width to prevent overflow */
+    border: solid 8px rgb(93, 89, 109);
+    border-radius: 12px;
+    padding: 14px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 12px;
+    margin: 10px;
+    color: aliceblue;
+    overflow: auto; /* Adds scrollbars if content overflows */
+        background: linear-gradient(to bottom, rgb(25, 25, 31), rgb(46, 47, 47));
+    
+}
+
+.cards img{
+    height:150px;
+    width: 180px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.cards span{
+    text-transform: capitalize;
+    border: 0px solid black;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    margin-left: 6px;
+    font-size: 14px;
+    background-color: #0e0e11;
+    color: white;
+}
+
+.pokemonDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.type span{
+    background-color: #4c4c5c;
+    color: #fefefec2;
+    font-weight: 400;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding-bottom: 3px;
+    padding-left: 11px;
+    padding-right: 11px;
+    margin-bottom: 14px;
+    
+}
+
+.enemies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.power{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.name h3{
+    font-size: 28px;
+    font-family: "Inter", system-ui;
+    background: linear-gradient(to right, rgb(255, 255, 255) 60%, rgb(91, 99, 89) 120%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 0px;
+    margin-bottom: 18px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+#search{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.searchBars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    width: 240px;
+    height: 40px;
+    margin-right: 10px;
+    appearance: none;
+    font-size: 15px;
+}
+#numberOfCards{
+    padding: 0px;
+    padding-left: 10px;
+    width: 230px;
+    
+}
+#pokemonType{
+    padding: 0px;
+    padding-left: 10px;
+    height: 42px;
+}
+
+.searchBars:hover{
+    cursor: pointer;
+}
+
+.searchBars option{
+    background-color: #0e0e11;
+    color: white;
+}
+
+#searchButton button{
+    width:145px;
+    height: 40px;
+    margin-left : 1px
+}
+
+
+#display{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    width: 70%;
+}
+
+#display h1{
+    background-image: linear-gradient(to right, rgb(226, 239, 154) 0%, rgba(229, 229, 220, 0.721) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: "Rubik, serif";
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    font-size: 44px;
+}
+#display h4{
+    font-family:"Montserrat", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+
+.fa-solid{
+    font-size: 10px;
+    padding-right: 5px;
+}
+
+.enemies span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    padding-bottom: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin: 0px;
+    margin-right: 3px;
+    margin-left: 3px;
+}

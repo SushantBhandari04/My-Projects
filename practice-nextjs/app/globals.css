@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montez&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iansui&display=swap');
+@import "tailwindcss";
+
+@theme{
+  --font-montez: Montez;
+  --font-sigmar: Sigmar;
+  --font-iansui: Iansui
+}
+
+
